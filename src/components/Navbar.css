@@ -1,7 +1,8 @@
-.navbar-brand {
+.navbar .navbar-brand {
 	color: ;
 }
 
-.nav a {
-
+.navbar .navbar-brand img {
+	margin-top: -0.3em !important;
+	padding-right: 0.2em;
 }
