@@ -1,0 +1,12 @@
+/*------------------------------------
+  media query for screen size @767px 
+-------------------------------------*/
+@media screen and (max-width: 63.917em){
+	.carousel-item {
+		max-height: 550px !important;
+	}
+
+	.carousel-control-prev, .carousel-control-next {
+		display: none;
+	}
+}

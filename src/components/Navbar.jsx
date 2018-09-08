@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import RentflixIcon from '../images/favicon1.png';
+import RentflixIcon from '../images/movies1.png';
 
 class Navbar extends Component {
 	render() {

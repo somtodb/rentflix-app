@@ -7,6 +7,10 @@ class Footer extends Component {
 			<footer className="footer">
 		      <div className="container">
 		        <span className="text-muted">&#169; Rentflix {new Date().getFullYear()}</span>
+		        <i className="fab fa-youtube"></i>
+		        <i className="fab fa-twitter"></i>
+		        <i className="fab fa-instagram"></i>
+		        <i className="fab fa-snapchat-ghost"></i>
 		      </div>
 		    </footer>
 		);

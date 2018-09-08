@@ -7,6 +7,7 @@
 }
 
 .navbar .navbar-brand img {
-	margin-top: -0.3em !important;
-	padding-right: 0.2em;
+	margin-top: -0.22em !important;
+	padding-right: 0.25em;
+	width: 25% !important;
 }

@@ -12,7 +12,6 @@ class Movies extends Component {
 				<Jumbotron title="Movies" subtitle="Get started now" />
 				<div className="container">
 					<h2>Film Genres</h2>
-					
 					<p>
 						Access to a whole package of adventure, blockbuster, sci-fi and action movies in HD and lots more.
 					</p>
@@ -20,28 +19,28 @@ class Movies extends Component {
 						<Col>
 							<Card body>
 								<Media object src={require("../images/avengers.jpg")} width="100%"></Media>
-					          <CardTitle></CardTitle>
+					          <CardTitle>sci-fi</CardTitle>
 					          <Button>Rent Movie</Button>
 					        </Card>
 						</Col>
 						<Col>
 							<Card body>
 								<Media object src={require("../images/mi6-fallout.jpg")} width="100%"></Media>
-					          <CardTitle></CardTitle>
+					          <CardTitle>blockbuster</CardTitle>
 					          <Button>Rent Movie</Button>
 					        </Card>
 						</Col>
 						<Col>
 							<Card body>
 								<Media object src={require("../images/12-strong.jpg")} width="100%"></Media>
-					          <CardTitle></CardTitle>
+					          <CardTitle>action</CardTitle>
 					          <Button>Rent Movie</Button>
 					        </Card>
 						</Col>
 						<Col>
 							<Card body>
 								<Media object src={require("../images/lotp.jpg")} width="100%"></Media>
-					          <CardTitle></CardTitle>
+					          <CardTitle>comedy</CardTitle>
 					          <Button>Rent Movie</Button>
 					        </Card>
 						</Col>
@@ -50,28 +49,28 @@ class Movies extends Component {
 						<Col>
 							<Card body>
 								<Media object src={require("../images/first-man.jpeg")} width="100%"></Media>
-					          <CardTitle></CardTitle>
+					          <CardTitle>drama</CardTitle>
 					          <Button>Rent Movie</Button>
 					        </Card>
 						</Col>
 						<Col>
 							<Card body>
 								<Media object src={require("../images/jumanji.jpg")} width="100%"></Media>
-					          <CardTitle></CardTitle>
+					          <CardTitle>adventure</CardTitle>
 					          <Button>Rent Movie</Button>
 					        </Card>
 						</Col>
 						<Col>
 							<Card body>
 								<Media object src={require("../images/a-star-is-born.png")} width="100%"></Media>
-					          <CardTitle></CardTitle>
+					          <CardTitle>romance</CardTitle>
 					          <Button>Rent Movie</Button>
 					        </Card>
 						</Col>
 						<Col>
 							<Card body>
 								<Media object src={require("../images/ti-2.jpeg")} width="100%"></Media>
-					          <CardTitle></CardTitle>
+					          <CardTitle>animation</CardTitle>
 					          <Button>Rent Movie</Button>
 					        </Card>
 						</Col>
