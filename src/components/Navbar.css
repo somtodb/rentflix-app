@@ -2,12 +2,17 @@
 	color: #fff;
 }
 
-.navbar .navbar-brand {
-	color: ;
+.navbar {
+	background-color: #071826 !important;
 }
 
 .navbar .navbar-brand img {
 	margin-top: -0.22em !important;
 	padding-right: 0.25em;
 	width: 25% !important;
+}
+
+.navbar-toggler {
+	border: none;
+	margin-right: -0.5em;
 }

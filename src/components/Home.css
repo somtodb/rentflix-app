@@ -1,3 +1,51 @@
-.top-rentals {
-	text-align: center;
+.rentflix-brand {
+	position: absolute;
+	margin-top: -30% !important;
+	left: 15% !important;
+	color: #fff;
+}
+
+.rentflix-brand h1 {
+	font-size: 5em;
+}
+
+.rent-movie {
+	position: absolute;
+	margin-top: -25% !important;
+	right: 30% !important;
+}
+
+.essentials {
+	padding-top: 4em;
+	padding-bottom: 3em;
+}
+
+.subscribe {
+	background-color: #F4F4F4;
+	padding-top: 3em;
+	padding-bottom: 4em;
+}
+
+.subscribe h5 {
+	text-transform: uppercase;
+}
+
+/*------------------------------------
+  media query for screen size @767px 
+-------------------------------------*/
+@media screen and (max-width: 63.917em){
+	.rentflix-brand h1 {
+		font-size: 2em;
+	}
+
+	.rentflix-brand h2 {
+		font-size: 1em;
+	}
+
+	.rent-movie {
+		margin-top: -28% !important;
+		right: 20% !important;
+		padding: 0.5em;
+		font-size: 0.8em;
+	}
 }

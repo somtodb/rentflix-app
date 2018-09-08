@@ -3,5 +3,9 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
-	color: white;
+	color: #fff;
+}
+
+.display-3 {
+	font-size: 4.25em;
 }

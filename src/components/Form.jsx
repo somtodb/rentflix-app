@@ -15,7 +15,7 @@ class ContactForm extends Component {
         </FormGroup>
         <FormGroup>
           <Label for="fullName">Full name</Label>
-          <Input type="tel" name="password" id="fullName" placeholder="Full name" />
+          <Input type="tel" name="name" id="fullName" placeholder="Full name" />
         </FormGroup>
         <FormGroup>
           <Label for="phoneNumber">Phone</Label>
@@ -25,7 +25,7 @@ class ContactForm extends Component {
           <Label for="textArea">Message</Label>
           <Input type="textarea" name="text" id="textArea" />
         </FormGroup>
-        <Button color="success">Submit</Button>
+        <Button color="success">Send</Button>
       </Form>
     );
   }

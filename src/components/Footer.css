@@ -7,6 +7,27 @@
     background-color: #f5f5f5;
 }
 
+span {
+	margin-left: 0.5em;
+}
+
+.social {
+	float: right;
+}
+
 .fab {
 	margin-left: 1em;
+}
+
+/*------------------------------------
+  media query for screen size @767px 
+-------------------------------------*/
+@media screen and (max-width: 63.917em){
+	.social {
+		float: none;
+	}
+
+	.fab {
+		margin-left: 0.5em;
+	}
 }
