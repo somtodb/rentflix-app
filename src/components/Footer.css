@@ -18,16 +18,3 @@ span {
 .fab {
 	margin-left: 1em;
 }
-
-/*------------------------------------
-  media query for screen size @767px 
--------------------------------------*/
-@media screen and (max-width: 63.917em){
-	.social {
-		float: none;
-	}
-
-	.fab {
-		margin-left: 0.5em;
-	}
-}
