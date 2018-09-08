@@ -8,7 +8,6 @@ class Contact extends Component {
 	render() {
 		return (
 			<div>
-				
 				<Jumbotron title="Contact Us" subtitle="Customer care" />
 				<div className="container">
 					<Form /> 
