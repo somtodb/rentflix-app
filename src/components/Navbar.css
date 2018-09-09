@@ -13,6 +13,11 @@
 }
 
 .navbar-toggler {
-	border: none;
 	margin-right: -0.5em;
+	border: none;	
+}
+
+.navbar-toggler:focus {
+	border: none;
+	outline: none;
 }
