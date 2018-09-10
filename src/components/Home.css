@@ -1,6 +1,6 @@
 .rentflix-brand {
 	position: absolute;
-	margin-top: -25% !important;
+	margin-top: -30% !important;
 	left: 20% !important;
 	color: #000;
 }
@@ -12,13 +12,44 @@
 .rent-movie {
 	position: absolute;
 	color: #fff;
-	margin-top: -20% !important;
+	margin-top: -25% !important;
 	right: 25% !important;
 }
 
+.bg {
+	background-color: #fff;
+	font-family: 'palanquin';
+}
+
+.bg h3 {
+	padding-right: 1em;
+	color: #000;
+}
+
+@media screen and (max-width: 63.917em){
+	.bg h3 {
+		margin-left: 0.5em;
+	}
+}
+
 .essentials {
-	padding-top: 9em;
-	padding-bottom: 8em;
+	padding-top: 7em;
+	padding-bottom: 5.5em;
+	color: #000;
+	text-align: center;
+}
+
+.essentials .media {
+	padding-bottom: 1em;
+}
+
+.essentials p {
+	font-size: 1em;
+	padding-bottom: 0.5em;
+}
+
+.essentials button {
+	margin-bottom: 1.5em;
 }
 
 .subscribe {
@@ -29,10 +60,15 @@
 
 .subscribe h5 {
 	text-transform: uppercase;
+	color: darkgrey;
+}
+
+.subscribe button {
+	color: #000;
 }
 
 .welcome {
-	opacity: 0.6;
+	opacity: 0.8;
 	width: 50%;
 }
 
@@ -49,7 +85,7 @@
 	}
 
 	.rent-movie {
-		margin-top: -23% !important;
+		margin-top: -28% !important;
 		right: 20% !important;
 		padding: 0.5em;
 		font-size: 0.8em;
@@ -58,5 +94,6 @@
 	.essentials {
 		padding-top: 3em;
 		padding-bottom: 2em;
+		text-align: left;
 	}
 }

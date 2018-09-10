@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { Container, Row, Col, Media, Form, FormGroup, Input, Button } from 'reactstrap';
+import Carousel from '../components/Carousel.jsx';
 import './Home.css';
-import Cassette from '../images/bg.png';
+import Cassette from '../images/walt.png';
 import Rampage from '../images/rampage.png';
 import Crasians from '../images/cra.png';
 import Misix from '../images/mi-6.png';
@@ -14,28 +15,35 @@ class Home extends Component {
 					<Media className="welcome" src={Cassette}/>
 					<div className="rentflix-brand">
 						<h1>Rentflix</h1>
-						<h2>Quality Viewing Experience</h2>
+						<h2>Quality Movie Time</h2>
 					</div>
 					<Button color="danger" className="rent-movie">Rent a Movie</Button>
 				</div>
 				
-				<Container>
-			        <Row className="essentials">
-			          <Col sm="4">
-			          	<Media src={Crasians} />
+				<Carousel />
+				<div className="bg">
+					<Container>
+				        <Row className="essentials">
+						  <h3>Trendy</h3>
 
-			          	<p>Crazy Rich Asians</p>
-			          </Col>
-			          <Col sm="4">
-			          	<Media src={Rampage}  />
-			          	<p>Summer of Dwayne Johnson</p>
-			          </Col>
-			          <Col sm="4">
-			          	<Media src={Misix}  />
-			          	<p>Mission Impossible Franchise</p>
-			          </Col> 
-			        </Row>
-			    </Container>
+				          <Col sm>
+				          	<Media src={Crasians} />
+				          	<p>Crazy Rich Asians</p>
+				          	<Button color="danger">Watch Movie</Button>
+				          </Col>
+				          <Col sm>
+				          	<Media src={Rampage}  />
+				          	<p>Rampage</p>
+				          	<Button color="danger">Watch Movie</Button>
+				          </Col>
+				          <Col sm>
+				          	<Media src={Misix}  />
+				          	<p>MI: Fallout</p>
+				          	<Button color="danger">Watch Movie</Button>
+				          </Col> 
+				        </Row>
+				    </Container>
+			    </div>
     
 			        <div className="subscribe">
 			        	<Container>
@@ -57,7 +65,7 @@ class Home extends Component {
 							          <Input type="email" name="email" id="userEmail" placeholder="Email address" />
 							        </FormGroup>
 							        
-							        <Button color="primary">Subscribe Now</Button>
+							        <Button color="outline-dark">Subscribe Now</Button>
 						    	</Form>
 						    	</Col>
 						    </Row>

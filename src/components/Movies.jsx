@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Jumbotron from '../components/Jumbotron.jsx';
-import Carousel from '../components/Carousel.jsx';
 import { Row, Col, Card, Button, CardTitle, Media } from 'reactstrap';
 
 import './Movies.css';
