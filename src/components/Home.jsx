@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Container, Row, Col, Media, Form, FormGroup, Input, Button } from 'reactstrap';
 import './Home.css';
-import Cassette from '../images/react6.jpg';
+import Cassette from '../images/bg.png';
 import Rampage from '../images/rampage.png';
 import Crasians from '../images/cra.png';
 import Misix from '../images/mi-6.png';
@@ -11,7 +11,7 @@ class Home extends Component {
 		return (
 			<div>
 				<div>
-					<Media src={Cassette}/>
+					<Media className="welcome" src={Cassette}/>
 					<div className="rentflix-brand">
 						<h1>Rentflix</h1>
 						<h2>Quality Viewing Experience</h2>

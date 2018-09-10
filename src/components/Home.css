@@ -1,8 +1,8 @@
 .rentflix-brand {
 	position: absolute;
-	margin-top: -30% !important;
-	left: 15% !important;
-	color: #fff;
+	margin-top: -25% !important;
+	left: 20% !important;
+	color: #000;
 }
 
 .rentflix-brand h1 {
@@ -11,8 +11,9 @@
 
 .rent-movie {
 	position: absolute;
-	margin-top: -25% !important;
-	right: 30% !important;
+	color: #fff;
+	margin-top: -20% !important;
+	right: 25% !important;
 }
 
 .essentials {
@@ -30,6 +31,11 @@
 	text-transform: uppercase;
 }
 
+.welcome {
+	opacity: 0.6;
+	width: 50%;
+}
+
 /*------------------------------------
   media query for screen size @767px 
 -------------------------------------*/
@@ -43,7 +49,7 @@
 	}
 
 	.rent-movie {
-		margin-top: -28% !important;
+		margin-top: -23% !important;
 		right: 20% !important;
 		padding: 0.5em;
 		font-size: 0.8em;
