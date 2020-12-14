@@ -9,18 +9,18 @@ class Carousel extends Component {
               <div className="carousel-item active">
                 <div className="row">
                   <div className="col">
-                    <iframe width="459" height="155px"
+                    <iframe title="movie-trailers" width="459" height="155px"
                     src="https://www.youtube.com/embed/UUkn-enk2RU">
                     </iframe>
                   </div>
                   
                   <div className="col">
-                    <iframe width="459" height="155px"
+                    <iframe title="movie-trailers" width="459" height="155px"
                     src="https://www.youtube.com/embed/xLCn88bfW1o">
                     </iframe>
                   </div>
                   <div className="col">
-                    <iframe width="459" height="155px"
+                    <iframe title="movie-trailers" width="459" height="155px"
                     src="https://www.youtube.com/embed/WDkg3h8PCVU">
                     </iframe>
                   </div>
@@ -30,17 +30,17 @@ class Carousel extends Component {
               <div className="carousel-item">
                 <div className="row">
                   <div className="col">
-                    <iframe width="459" height="155px"
+                    <iframe title="movie-trailers" width="459" height="155px"
                     src="https://www.youtube.com/embed/14ZHRBfpeNg">
                     </iframe>
                   </div>
                   <div className="col">
-                    <iframe width="459" height="155px"
+                    <iframe title="movie-trailers" width="459" height="155px"
                     src="https://www.youtube.com/embed/coOKvrsmQiI">
                     </iframe>
                   </div>
                   <div className="col">
-                    <iframe width="459" height="155px"
+                    <iframe title="movie-trailers" width="459" height="155px"
                     src="https://www.youtube.com/embed/XiHiW4N7-bo">
                     </iframe>
                   </div>
